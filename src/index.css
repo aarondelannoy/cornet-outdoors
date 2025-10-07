@@ -99,6 +99,33 @@ All colors MUST be HSL.
 }
 
 @layer utilities {
+  .animate-smooth-fade {
+    animation: smooth-fade-in 0.8s ease-out forwards;
+    opacity: 0;
+  }
+
+  .animate-smooth-slide-down {
+    animation: smooth-slide-down 0.8s ease-out forwards;
+    opacity: 0;
+  }
+
+  .animate-smooth-slide-up {
+    animation: smooth-slide-up 0.8s ease-out forwards;
+    opacity: 0;
+  }
+
+  .animation-delay-200 {
+    animation-delay: 0.2s;
+  }
+
+  .animation-delay-300 {
+    animation-delay: 0.3s;
+  }
+
+  .animation-delay-500 {
+    animation-delay: 0.5s;
+  }
+
   @keyframes smooth-fade-in {
     from {
       opacity: 0;
@@ -130,32 +157,5 @@ All colors MUST be HSL.
       opacity: 1;
       transform: translateY(0);
     }
-  }
-
-  .animate-smooth-fade {
-    animation: smooth-fade-in 0.8s ease-out forwards;
-    opacity: 0;
-  }
-
-  .animate-smooth-slide-down {
-    animation: smooth-slide-down 0.8s ease-out forwards;
-    opacity: 0;
-  }
-
-  .animate-smooth-slide-up {
-    animation: smooth-slide-up 0.8s ease-out forwards;
-    opacity: 0;
-  }
-
-  .delay-200 {
-    animation-delay: 0.2s;
-  }
-
-  .delay-300 {
-    animation-delay: 0.3s;
-  }
-
-  .delay-500 {
-    animation-delay: 0.5s;
   }
 }

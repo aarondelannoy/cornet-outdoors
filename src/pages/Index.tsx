@@ -30,7 +30,7 @@ const Index = () => {
           </div>
 
           {/* Coming Soon Text */}
-          <div className="space-y-4 animate-smooth-slide-up delay-200">
+          <div className="space-y-4 animate-smooth-slide-up animation-delay-200">
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-foreground">
               Coming Soon
             </h1>
@@ -40,7 +40,7 @@ const Index = () => {
           </div>
 
           {/* Email Signup */}
-          <div className="w-full max-w-md animate-smooth-fade delay-300">
+          <div className="w-full max-w-md animate-smooth-fade animation-delay-300">
             <p className="text-sm text-muted-foreground mb-4">
               Be the first to know when we launch
             </p>
@@ -48,7 +48,7 @@ const Index = () => {
           </div>
 
           {/* Footer */}
-          <div className="pt-12 animate-smooth-fade delay-500">
+          <div className="pt-12 animate-smooth-fade animation-delay-500">
             <p className="text-sm text-muted-foreground">
               © 2025 Cornet Outdoors, Co. All rights reserved.
             </p>
