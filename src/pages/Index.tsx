@@ -1,5 +1,5 @@
 import { EmailSignup } from "@/components/EmailSignup";
-import logo from "@/assets/cornet-logo.jpg";
+import logo from "@/assets/cornet-logo.webp";
 import heroImage from "@/assets/hero-mountains.jpg";
 
 const Index = () => {
