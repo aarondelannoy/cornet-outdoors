@@ -19,9 +19,9 @@ const Index = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 py-16">
-        <div className="flex flex-col items-center text-center space-y-8 animate-in fade-in duration-1000">
+        <div className="flex flex-col items-center text-center space-y-8 animate-in fade-in duration-[1100ms]">
           {/* Logo */}
-          <div className="w-64 md:w-80 lg:w-96 animate-in slide-in-from-top duration-700">
+          <div className="w-64 md:w-80 lg:w-96 animate-in slide-in-from-top duration-[770ms]">
             <img 
               src={logo} 
               alt="Cornet Outdoors Co. Logo" 
@@ -30,7 +30,7 @@ const Index = () => {
           </div>
 
           {/* Coming Soon Text */}
-          <div className="space-y-4 animate-in slide-in-from-bottom duration-700 delay-200">
+          <div className="space-y-4 animate-in slide-in-from-bottom duration-[770ms] delay-[220ms]">
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-foreground">
               Coming Soon
             </h1>
@@ -40,7 +40,7 @@ const Index = () => {
           </div>
 
           {/* Email Signup */}
-          <div className="w-full max-w-md animate-in slide-in-from-bottom duration-700 delay-300">
+          <div className="w-full max-w-md animate-in slide-in-from-bottom duration-[770ms] delay-[330ms]">
             <p className="text-sm text-muted-foreground mb-4">
               Be the first to know when we launch
             </p>
@@ -48,7 +48,7 @@ const Index = () => {
           </div>
 
           {/* Footer */}
-          <div className="pt-12 animate-in fade-in duration-700 delay-500">
+          <div className="pt-12 animate-in fade-in duration-[770ms] delay-[550ms]">
             <p className="text-sm text-muted-foreground">
               © 2025 Cornet Outdoors, Co. All rights reserved.
             </p>
