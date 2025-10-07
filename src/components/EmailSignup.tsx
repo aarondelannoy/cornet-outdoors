@@ -14,7 +14,7 @@ export const EmailSignup = () => {
           name="email"
           placeholder="Enter your email"
           required
-          className="flex-1 bg-secondary/50 border-border text-foreground placeholder:text-muted-foreground focus:ring-primary"
+          className="flex-1 bg-secondary/50 border-border text-foreground placeholder:text-muted-foreground focus:ring-primary focus:bg-secondary/50 autofill:bg-secondary/50"
         />
         <Button 
           type="submit"
