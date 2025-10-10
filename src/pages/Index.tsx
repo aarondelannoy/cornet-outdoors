@@ -51,7 +51,7 @@ const Index = () => {
           {/* Social Media Links */}
           <div className="flex gap-6 animate-smooth-fade animation-delay-600">
             <a
-              href="https://www.facebook.com/people/Cornet-Outdoors-Co/61581635897020/"
+              href="https://www.facebook.com/cornetoutdoors/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors duration-300"
@@ -60,7 +60,7 @@ const Index = () => {
               <Facebook className="w-6 h-6" />
             </a>
             <a
-              href="https://www.instagram.com/cornetoutdoors/"
+              href="https://www.instagram.com/cornetoutdoors"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors duration-300"
