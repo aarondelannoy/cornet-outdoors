@@ -49,7 +49,7 @@ const Index = () => {
           </div>
 
           {/* Social Media Links */}
-          <div className="flex gap-6 animate-smooth-fade animation-delay-400">
+          <div className="flex gap-6 animate-smooth-slide-up animation-delay-400">
             <a
               href="https://www.facebook.com/people/Cornet-Outdoors-Co/61581635897020/"
               target="_blank"
