@@ -1,6 +1,6 @@
 import { EmailSignup } from "@/components/EmailSignup";
 import { Facebook, Instagram } from "lucide-react";
-import logo from "@/assets/cornet-logo-new.webp";
+import logo from "@/assets/cornet-logo.webp";
 import heroImage from "@/assets/hero-mountains.jpg";
 
 const Index = () => {
@@ -49,7 +49,7 @@ const Index = () => {
           </div>
 
           {/* Social Media Links */}
-          <div className="flex gap-6 animate-smooth-slide-up animation-delay-400">
+          <div className="flex gap-6 animate-smooth-fade animation-delay-400">
             <a
               href="https://www.facebook.com/people/Cornet-Outdoors-Co/61581635897020/"
               target="_blank"
