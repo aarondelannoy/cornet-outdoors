@@ -1,6 +1,6 @@
 import { EmailSignup } from "@/components/EmailSignup";
 import { Facebook, Instagram } from "lucide-react";
-import logo from "@/assets/cornet-logo.webp";
+import logo from "@/assets/cornet-logo.png";
 import heroImage from "@/assets/hero-mountains.jpg";
 
 const Index = () => {
