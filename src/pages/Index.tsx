@@ -36,7 +36,7 @@ const Index = () => {
               Coming Soon
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Adventure awaits. We're crafting something special for outdoor enthusiasts.
+              Adventure awaits. We're crafting something special for <span className="whitespace-nowrap">outdoor enthusiasts</span>.
             </p>
           </div>
 
