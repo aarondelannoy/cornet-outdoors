@@ -1,4 +1,5 @@
 import { EmailSignup } from "@/components/EmailSignup";
+import { Facebook, Instagram } from "lucide-react";
 import logo from "@/assets/cornet-logo.webp";
 import heroImage from "@/assets/hero-mountains.jpg";
 
@@ -47,8 +48,30 @@ const Index = () => {
             <EmailSignup />
           </div>
 
+          {/* Social Media Links */}
+          <div className="flex gap-6 items-center animate-smooth-fade animation-delay-400">
+            <a
+              href="https://facebook.com/cornetoutdoors"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors duration-300"
+              aria-label="Visit our Facebook page"
+            >
+              <Facebook className="w-6 h-6" />
+            </a>
+            <a
+              href="https://instagram.com/cornetoutdoors"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors duration-300"
+              aria-label="Visit our Instagram page"
+            >
+              <Instagram className="w-6 h-6" />
+            </a>
+          </div>
+
           {/* Footer */}
-          <div className="pt-12 animate-smooth-fade animation-delay-500">
+          <div className="pt-8 animate-smooth-fade animation-delay-500">
             <p className="text-sm text-muted-foreground">
               © 2025 Cornet Outdoors, Co. All rights reserved.
             </p>
