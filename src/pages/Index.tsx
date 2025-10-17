@@ -1,5 +1,6 @@
 import { EmailSignup } from "@/components/EmailSignup";
 import { Facebook, Instagram } from "lucide-react";
+import { Link } from "react-router-dom";
 import logo from "@/assets/cornet-logo.png";
 import heroImage from "@/assets/hero-mountains.jpg";
 
@@ -73,7 +74,7 @@ const Index = () => {
           {/* Footer */}
           <div className="pt-12 animate-smooth-fade animation-delay-500">
             <p className="text-sm text-muted-foreground">
-              © 2025 Cornet Outdoors, Co. All rights reserved.
+              © 2025 Cornet Outdoors, Co. All rights <Link to="/home" className="text-muted-foreground no-underline">reserved</Link>.
             </p>
           </div>
         </div>
