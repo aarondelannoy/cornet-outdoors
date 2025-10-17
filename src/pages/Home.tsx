@@ -50,10 +50,10 @@ const Home = () => {
             {/* Tagline */}
             <div className="space-y-4 animate-smooth-slide-up animation-delay-200">
               <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-foreground">
-                Wear Your Adventure
+                Work Hard. Wander Harder.
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-                Premium outdoor-inspired apparel for those who live for the trail
+                Built for life beyond the pavement.
               </p>
             </div>
           </div>
