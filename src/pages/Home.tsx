@@ -68,7 +68,7 @@ const Home = () => {
               Our Collection
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Discover our exclusive designs that capture the spirit of the outdoors
+              Discover our exclusive designs for those who can't sit still.
             </p>
           </div>
 
